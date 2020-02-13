@@ -1,0 +1,74 @@
+.yes{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(7,1fr) ;
+    padding: 15% 5% 15% 5%;
+}
+#Title{
+    grid-column: 1/6 ;
+    grid-row:1 ;
+    
+
+
+
+}
+#Email{
+    grid-column: 4/6;
+    grid-row: 2;
+    
+
+}
+#First{
+    grid-column:1/3 ;
+    grid-row:2 ;
+
+}
+#Last{
+    grid-column:1/3 ;
+    grid-row:3 ;
+
+}
+#Password{
+    grid-column:4/6 ;
+    grid-row:3 ;
+
+}
+#male{
+    grid-column: 1/3;
+    grid-row:5 ;
+
+}
+#Female{
+    grid-column:1/3 ;
+    grid-row: 6;
+
+}
+#idk{
+    grid-column: 1/3;
+    grid-row:7 ;
+
+}
+#date{
+    grid-column: 4/6;
+    grid-row: 4;
+}
+#agree{
+    grid-column:2/4 ;
+    grid-row: 7;
+
+}
+#submit{
+    grid-column:4/6 ;
+    grid-row:7 ;
+    background-color:lawngreen;
+    font-weight: bolder;
+    font-size: x-large;
+
+}
+#option{
+    grid-column:1/3 ;
+    grid-row: 4;
+    ;
+}
+
+    
